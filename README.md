@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DSPAA
 
 ## Local setup
@@ -40,3 +41,6 @@ The API emits JSON request logs with a request ID, method, status, and duration;
 **Vercel frontend:** Import this repository as a Next.js project. Use `npm run build` as the build command (or the detected default), and set the server-side `API_SERVER_URL` environment variable to the HTTPS Render API origin, for example `https://your-api.onrender.com`. Do not set `NEXT_PUBLIC_API_BASE_URL` for production secrets or configure backend secrets on Vercel. Deploy frontend and backend over HTTPS so the HTTP-only session cookie remains secure. The frontend calls the API through the existing same-origin rewrite.
 
 Store MongoDB/Judge0/JWT credentials only in the backend's secret environment settings, never in source control or browser-visible variables.
+=======
+# MSE_2_PE
+>>>>>>> 1c651f31f8524aec730d1b69dd135fd441dd38ae
