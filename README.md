@@ -42,5 +42,5 @@ The API emits JSON request logs with a request ID, method, status, and duration;
 
 Store MongoDB/Judge0/JWT credentials only in the backend's secret environment settings, never in source control or browser-visible variables.
 =======
-# MSE_2_PE
+
 >>>>>>> 1c651f31f8524aec730d1b69dd135fd441dd38ae
